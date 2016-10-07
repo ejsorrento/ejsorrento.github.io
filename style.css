@@ -1,0 +1,25 @@
+* {
+  border: solid 1px red;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 30px 0 0 0;
+  padding: 200px 0 00 730px;
+}
+
+h2  {
+  color: red;
+  margin: 10px 0 0 730px;
+  padding: -20px 0 0 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    color: blue;
+}

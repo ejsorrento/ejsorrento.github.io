@@ -1,25 +1,231 @@
 * {
-  border: solid 1px red;
+  /*border: solid 1px green;*/
 }
 
-h1 {
-  font-size: 90px;
-  margin: 30px 0 0 0;
-  padding: 200px 0 00 730px;
+body {
+  background: url(images/snowyDock2.jpeg);
+  background-size: cover;
 }
 
-h2  {
-  color: red;
-  margin: 10px 0 0 730px;
-  padding: -20px 0 0 0;
+#home {
+  font-family: 'Oleo+Script+Swash+Caps', cursive;
+  font-size: 17.5px;
 }
 
-.links {
-    display: flex;
-    justify-content: center;
-    display: inline-flex;
-    text-decoration: none;
-    padding: 20px;
-    margin: 20px;
-    color: blue;
+h1,
+h3,
+a {
+font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: white;
+  background-color: #000;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+a:hover {
+  color: RGBA(101, 176, 237, 1.00);
+}
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  top: 0px;
+  position: absolute;
+  z-index: 999;
+  background-color: #000;
+  border-bottom: solid 3px white;
+  opacity: 0.8;
+  line-height: 50px;
+}
+
+.landing {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.landing h1 {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 135px;
+  margin: 0 auto;
+
+  margin-top: -320px;
+  margin-bottom: -35px;
+  color: white;
+  -webkit-user-select: none;
+  text-shadow: 4px 2px 3px RGBA(66, 72, 80, 1.00), -4px -2px 3px rgba(0,255,255,0.8), 0px 5px 3px rgba(0,0,0,0.7);
+}
+
+.landing h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  -webkit-user-select: none;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  text-shadow: 0px 3px 4px rgba(0,0,0,0.7);
+  display: inline-block;
+  font-style: italic;
+}
+
+.landing h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+}
+
+.landing h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+#social-icon-container
+{
+  width: 300px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#title-content img
+{
+  padding: 5px;
+}
+
+#social-icon-container #github
+{
+  margin: 14px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background: transparent url('images/github64.png') center no-repeat;
+  opacity: 0.7;
+}
+
+#social-icon-container #linkedin
+{
+  width: 60px;
+  height: 60px;
+  margin: 14px;
+  display: inline-block;
+  background: transparent url('images/linkedin64.png') center no-repeat;
+  opacity: 0.7;
+}
+
+/*page2*/
+
+#about{
+  position: relative;
+  bottom: 40px;
+  font-size: 25px;
+  text-align: center;
+  color: turquoise;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+}
+
+#textBG {
+  top: -90px;
+  background-color: RGBA(215, 217, 216, 0.8);
+  margin: auto;
+  width: 50%;
+  border: 2px solid brown;
+  border-radius: 50px;
+}
+
+#about-paragraph{
+  font-family: 'Lato', sans-serif;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*page3*/
+.project-info-left
+{
+  text-align: left;
+  display: inline-block;
+  width: 35%;
+  float: left;
+  padding-top: 20px;
+}
+
+.project-info-left h1
+{
+  font-family: 'Oleo+Script+Swash+Caps', cursive;
+  color: white;
+  font-size: 54px;
+  margin-top: -100px;
+  /*padding-bottom: 20px;*/
+  text-align: center;
+}
+
+.project-info-left h6
+{
+  font-family: 'Lato';
+  color: blue;
+  line-height: 20px;
+  padding-left: 185px;
+  margin-bottom: 25px;
+}
+
+.project-info-left a {
+  color: cyan;
+  font-size: 12px;
+}
+
+.project-images-right {
+  margin-left: 0px;
+  display: inline-block;
+  width: 50%;
+  float: right;
+  margin-right: 85px;
+  border: solid 2px red;
+}
+
+/*page4*/
+#contact {
+  position: relative;
+  bottom: 270px;
+  font-size: 25px;
+  text-align: center;
+  color: turquoise;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+}
+
+.headShot {
+  position: absolute;
+  top: 120px;
+  left: 560px;
+  width: 13%;
+  height: 210px;
+  margin-bottom: -100px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 5px RGBA(136, 136, 136, 0.75);
+}
+
+#text4 {
+  position: relative;
+  top: -25px;
+  /*bottom: 59px;*/
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px 1px RGBA(66, 72, 80, 0.5);
+}
+
+#email {
+  position: absolute;
+  top: 430px;
+  left: 565px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    * {
+        background-color: lightblue;
+    }
 }

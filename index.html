@@ -1,28 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>EJ Sorrento-Portfolio</title>
-<header>
+  <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Lato|Oleo+Script+Swash+Caps" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="fullPage.js-master/jquery.fullPage.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="fullPage.js-master/jquery.fullPage.css">
+  <script src="script.js"></script>
 
-  <h1>Ej Sorrento</h1>
-  <h2>Full-stack web developer</h2>
-
-<div class="links">
-  <nav>
-    <a href="#" class="links">About Me</a>
-    <a href="#" class="links">Experience</a>
-    <a href="#" class="links">Contact</a>
-  </nav>
-</div>
-</header>
+  <script src="script.js" charset="utf-8"></script>
 </head>
+
 <body>
+<div id="navbar">
+  <a id="home" href="#page1">EJ</a>|||
+  <a href="#page2">ABOUT</a>|||
+  <a href="#page3/slide3-1">WORK</a>|||
+  <a href="#page4">CONTACT</a>
+</div>
+<div id="wrapper">
 
 
 
+<div class="section" data-anchor="page1">
+    <div class="landing">
+      <h1>ej sorrento</h1>
+      <h3>data-engineer</h3>
+
+      <div id='social-icon-container'>
+          <a id="github" href='http://www.github.com/ejsorrento' target="_blank"></a>
+          <a id="linkedin" href='https://www.linkedin.com/in/ej-sorrento-23479bb0?trk=nav_responsive_tab_profile_pic' target="_blank"></a>
+          <!-- <a id="instagram" href='http://www.instagram.com/rlee1121'></a> -->
+        </div>
+</div>
+</div>
+
+  <div class="section"data-anchor="page2">
+    <h1 id="about">about</h1>
+
+<div id="textBG">
+    <div class="landing">
+      <h4>Hi, my name is EJ Sorrento</h4>
+      <h5>I am a 22 year old web developer from Buffalo, New York.</h5>
+    </div>
+</div>
+
+
+  <div id="textBG">
+    <div id='about-paragraph'>
+      <p>Following my graduation from high school in June 2012, a friend and I started a business together focused on bringing nutritional and other products to our local community. During that time, I came across quite a few programmers and when it was time to finally move on from that company, I knew the direction I wanted to go in next. <br><br>I have spent the last 12 weeks in General Assembly's Web Development Immersive program building many different apps and perfecting my craft as a developer. Outside of that, I focus on other skills I find essential to coding, currently I'm focusing on broadening my understanding of Vanilla JavaScript.   </p>
+  </div>
+</div>
+  </div>
+
+  <div class="section" data-anchor="page3">
+
+    <div class="slide" data-anchor="slide3-1">
+
+    <div class = 'project' id='diddy'>
+          <div class = 'project-info-left'>
+            <div class='project-title'>
+              <h1>Diddy</h1>
+            </div>
+
+            <div class='project-description'>
+              <h6>Diddy is your gateway to a more fulfilling social life. Cliquer allows you to propose plans within private social groups and view these plans in a feed of plan ideas from your best friends.
+                No more ignored emails and texts, and no more having to dig through old emails to find out what your friends want to do.
+                Diddy is all you need. Try it <a href="https://diddy.herokuapp.com/#/" target="_blank">here!</a></h6>
+            </div>
+
+          </div>
+          <div class='project-images-right'>
+            <img src="images/diddy.jpg", height='400'>
+          </div>
+        </div>
+    </div>
+
+    <div class="slide" data-anchor="slide3-2">
+      <div class = 'project' id='hangman'>
+            <div class = 'project-info-left'>
+              <div class='project-title'>
+                <h1>Hangman</h1>
+              </div>
+
+              <div class='project-description'>
+                <h6>Hangman is your gateway to a more fulfilling social life. Cliquer allows you to propose plans within private social groups and view these plans in a feed of plan ideas from your best friends.
+                  No more ignored emails and texts, and no more having to dig through old emails to find out what your friends want to do.
+                  Hangman is all you need. Try it <a href="https://diddy.herokuapp.com/#/" target="_blank">here!</a></h6>
+              </div>
+
+            </div>
+            <div class='project-images-right'>
+              <img src="images/hangman.jpg", height='400'>
+            </div>
+          </div>
+      
+    </div>
+
+    <div class="slide" data-anchor="slide3-3">
+      <!-- <img class="thisWorks" src="images/asanoha-400px2.png" /> -->
+    </div>
+
+  </div>
+
+  <div class="section" data-anchor="page4">
+    <img class="headShot" src="images/portfolioHead.jpg" alt="Headshot" />
+    <h1 id="contact">contact</h1>
+        <h3 id="text4">Interested in working together?</h3>
+        <a id="email" href="mailto:ejsorrento@gmail.com">GET IN TOUCH</a>
+      </div>
 </body>
 </html>
+
+
+
+
+
+<!-- https://diddy.herokuapp.com/#/ -->

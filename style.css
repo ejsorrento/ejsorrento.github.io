@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: RGBA(101, 176, 237, 1.00);
+  color: cyan;
 }
 
 #navbar {
@@ -69,12 +69,30 @@ a:hover {
   color: white;
   -webkit-user-select: none;
   margin-bottom: 30px;
-  margin-top: -20px;
+  margin-top: -100px;
   position: relative;
   top: 40px;
   text-shadow: 0px 3px 4px rgba(0,0,0,0.7);
   display: inline-block;
   font-style: italic;
+}
+
+.landing h6 {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  position: relative;
+  top: 40px;
+  text-shadow: 0px 3px 4px rgba(0,0,0,0.7);
+
+  /*padding-top: 0px;*/
+}
+
+.landing h6:hover {
+  color red;
 }
 
 
@@ -84,7 +102,7 @@ a:hover {
   height: 80px;
   margin: auto;
   position: relative;
-  top: 85px;
+  top: 60px;
   text-align: center;
 }
 
@@ -138,7 +156,7 @@ a:hover {
 /*page2*/
 #about{
   position: relative;
-  bottom: 70px;
+  bottom: 45px;
   font-size: 25px;
   text-align: center;
   color: turquoise;
@@ -155,7 +173,7 @@ a:hover {
   font-family: 'Lato', sans-serif;
   font-size: 50px;
   position: relative;
-  top: -75px;
+  top: -55px;
   color: white;
   text-shadow: 1px 1px 1px RGBA(15, 27, 34, 0.5);
 }
@@ -246,6 +264,7 @@ box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
   font-size: 20px;
   color: white;
   text-shadow: 1px 1px 1px RGBA(15, 27, 34, 0.5);
+  font-weight: bold;
 }
 
 /*page3*/
@@ -280,9 +299,10 @@ box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
   text-align: center;
   margin-right: 80px;
   margin-bottom: 25px;
-  line-height: 90%;
-  font-size: 25px;
+  line-height: 100%;
+  font-size: 22.5px;
   color: cyan;
+
   text-shadow: 1px 1px 1px RGBA(15, 27, 34, 0.5);
 }
 
@@ -292,10 +312,14 @@ box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
   top: 40px;
   color: cyan;
   text-shadow: 1px 1px 1px RGBA(15, 27, 34, 0.5);
+  padding: 2.5px;
+  border-radius: 50px;
 }
 
 .project-info-left a:hover {
   color: brown;
+  padding: 2.5px;
+  border-radius: 50px;
 }
 
 .project-images-right {
@@ -341,6 +365,8 @@ box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
 
 #email {
   position: absolute;
+  padding: 2.5px;
+  border-radius: 50px;
   top: 430px;
   left: 565px;
   font-size: 20px;
